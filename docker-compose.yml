@@ -1,0 +1,12 @@
+version: '3.8'
+
+services:
+  web:
+    build: .
+    container_name: guia_cidadao_ai
+    ports:
+      - "5000:5000"
+    volumes:
+      - ./app:/home/user/app # Mapeia o código local para dentro do container para desenvolvimento
+    env_file:
+      - ./.env # Carrega variáveis de ambiente do arquivo .env

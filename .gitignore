@@ -287,7 +287,6 @@ FakesAssemblies/
 *.GhostDoc.xml
 
 # Node.js Tools for Visual Studio
-.ntvs_analysis.dat
 node_modules/
 
 # Visual Studio 6 build log
@@ -404,3 +403,27 @@ FodyWeavers.xsd
 
 # JetBrains Rider
 *.sln.iml
+
+# Ambientes Virtuais
+venv/
+/venv/
+.venv/
+/.venv/
+
+# Arquivos de Cache e Compilados do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de Configuração Local
+.env
+.env.*
+!.env.example
+
+# Arquivos do Editor (VS Code)
+.vscode/
+
+# Arquivos de Sistema Operacional
+.DS_Store
+Thumbs.db
