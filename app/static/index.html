@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-g">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cidadão AI</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div id="chat-container">
+        <h1>Cidadão AI</h1>
+        <p>Seu assistente para informações sobre o Bolsa Família</p>
+        <div id="chat-box">
+            <div class="message bot-message">
+                Olá! Como posso te ajudar hoje com suas dúvidas sobre o Bolsa Família?
+            </div>
+        </div>
+        <div id="input-container">
+            <input type="text" id="user-input" placeholder="Digite sua pergunta aqui...">
+            <button id="send-btn">Enviar</button>
+        </div>
+    </div>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
