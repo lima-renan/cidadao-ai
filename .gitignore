@@ -420,7 +420,8 @@ __pycache__/
 .env
 .env.*
 !.env.example
-
+*.drawio.bkp
+*.xml.bkp
 # Arquivos do Editor (VS Code)
 .vscode/
 
