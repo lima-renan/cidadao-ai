@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
-    <meta charset="UTF-g">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cidadão AI</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
@@ -9,14 +9,16 @@
 <body>
     <div id="chat-container">
         <h1>Cidadão AI</h1>
-        <p>Seu assistente para informações sobre o Bolsa Família</p>
+        <!-- SUBTÍTULO ATUALIZADO -->
+        <p>Seu assistente para informações de serviços públicos</p>
         <div id="chat-box">
+            <!-- MENSAGEM INICIAL ATUALIZADA -->
             <div class="message bot-message">
-                Olá! Como posso te ajudar hoje com suas dúvidas sobre o Bolsa Família?
+                Olá! Como posso ajudar hoje com as suas dúvidas sobre o Bolsa Família, Emissão de RG ou Agendamento no SUS?
             </div>
         </div>
         <div id="input-container">
-            <input type="text" id="user-input" placeholder="Digite sua pergunta aqui...">
+            <input type="text" id="user-input" placeholder="Digite a sua pergunta aqui...">
             <button id="send-btn">Enviar</button>
         </div>
     </div>
